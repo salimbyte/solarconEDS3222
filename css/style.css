@@ -623,13 +623,24 @@ footer {
     grid-template-columns: auto auto auto;
   }
 
+
+
+  .feature-row {
+    margin: 60px auto 0px auto;
+    text-align: left;
+    line-height: 2;
+    width: 100%;
+    margin-right: 10px;
+  }
+  
+
   section {
     min-height: 100vh;
     /* padding: 40px; */
     align-items: center;
     width: 100%;
     margin: 0;
-  
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     color: #40514e;
   }
