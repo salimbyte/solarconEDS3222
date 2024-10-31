@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcd1;
+  padding: 20px;
+  /* font-family: Arial; */
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>SOLACON-EDS.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="../images/gallarypics/gallary1.jpg" alt="Mountains" style="width:100%">
+      <h3>Majestic Mountain Landscapes</h3>
+      <p>
+        A serene view of towering mountains encapsulating nature's beauty.
+
+
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary2.jpeg" alt="Lights" style="width:100%">
+      <h3>Illuminated Cityscapes</h3>
+      <p>Capturing the vibrant lights of an evening city skyline.
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary3.jpeg" alt="Nature" style="width:100%">
+      <h3>Essence of Nature</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary4.jpeg" alt="Mountains" style="width:100%">
+      <h3>Mountain Reflections</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary5.jpeg" alt="Mountains" style="width:100%">
+      <h3>Wilderness Views</h3>
+      <p>
+        Immersed in untouched landscapes, where nature's palette
+      </p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary6.jpeg" alt="Mountains" style="width:100%">
+      <h3>Alpine Peaks</h3>
+      <p>
+        Snow-capped peaks reaching for the sky, serene and timeless.
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary7.jpeg" alt="Mountains" style="width:100%">
+      <h3>Dramatic Horizons</h3>
+      <p>
+        Vast horizons under vibrant skies, evoking wonder and
+      </p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+    <img src="../images/gallarypics/gallary8.jpeg" alt="Mountains" style="width:100%">
+      <h3>Quiet Mountainscape</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+ 
+  
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="../images/gallarypics/gallary9.webp" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
