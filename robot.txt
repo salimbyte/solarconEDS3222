@@ -1,0 +1,24 @@
+UMARU MUSA YAR'ADUA UNIVERSITY
+
+EDS 2234 COURSE WORK 
+PROJECT TITLE: SOLAR INSTALLATION CONSULTANCY 
+
+WRITTEN IN: html, css, javascript
+HOSTED TO: 
+CODE AVAILABE: github.com/salimbyte
+
+LEVEL: 300
+DEPARTMENT: COMPUTER SCIENCE
+PROGRAM: Bachelor of Science (Bsc)
+
+COURSE LECTURER: DR YAHAYA IBRAHIM
+
+
+This project is a website for a solar installation consultancy, designed to be both professional and user-friendly. Using HTML, CSS, and JavaScript, I implemented a responsive layout with features like an image gallery, a slideshow, and a JavaScript-based navigation toggle. Stock images and icons sourced from platforms like Pexels and Flaticon were used to add quality visuals.
+
+Key Features
+    Responsive Design across all devices
+    Dynamic Slideshow for showcasing images
+    Contact Form for user inquiries
+    Resources
+I used W3Schools for guidance on CSS grid and JavaScript interactivity, along with Google Fonts and Flaticon for added design elements.
